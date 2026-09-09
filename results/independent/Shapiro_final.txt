@@ -1,0 +1,73 @@
+Digite o nome do arquivo de entrada (ex: input.txt): Variavel: Controle - Altura_cm
+Estatistica W: 0.9819
+Valor-p: 5.1526e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Tratamento - Altura_cm
+Estatistica W: 0.9747
+Valor-p: 2.4545e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Controle - Area_foliar_cm2
+Estatistica W: 0.9766
+Valor-p: 3.0261e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Tratamento - Area_foliar_cm2
+Estatistica W: 0.9829
+Valor-p: 5.6503e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Controle - Espessura_foliar_mm
+Estatistica W: 0.9866
+Valor-p: 7.5384e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Tratamento - Espessura_foliar_mm
+Estatistica W: 0.9858
+Valor-p: 7.1090e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Controle - Densidade_estomatica_mm2
+Estatistica W: 0.9860
+Valor-p: 7.2378e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Tratamento - Densidade_estomatica_mm2
+Estatistica W: 0.9840
+Valor-p: 6.2056e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Controle - Teor_agua_%
+Estatistica W: 0.9909
+Valor-p: 9.3619e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Tratamento - Teor_agua_%
+Estatistica W: 0.9824
+Valor-p: 5.3656e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Controle - Biomassa_seca_mg
+Estatistica W: 0.9771
+Valor-p: 3.1937e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Tratamento - Biomassa_seca_mg
+Estatistica W: 0.9821
+Valor-p: 5.2527e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Controle - Compostos_fenolicos_ug_g
+Estatistica W: 0.9823
+Valor-p: 5.3441e-01
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Variavel: Tratamento - Compostos_fenolicos_ug_g
+Estatistica W: 0.9650
+Valor-p: 8.2408e-02
+Conclusao: A distribuicao parece normal (Nao rejeita a Hipotese Nula).
+
+Processo concluido! Os nomes de 0 variaveis NAO normais foram salvos em 'lista.txt'.
+
+Pressione Enter para fechar o programa...

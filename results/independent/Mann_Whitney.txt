@@ -1,0 +1,38 @@
+Digite o nome do arquivo de entrada (ex: input.txt): Comparando: Controle (Altura_cm) VS Tratamento (Altura_cm)
+Estatistica U: 1264.0000
+Valor-p: 4.9442e-03
+Conclusao: Ha diferenca significativa entre os grupos (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Area_foliar_cm2) VS Tratamento (Area_foliar_cm2)
+Estatistica U: 832.0000
+Valor-p: 3.8128e-07
+Conclusao: Ha diferenca significativa entre os grupos (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Espessura_foliar_mm) VS Tratamento (Espessura_foliar_mm)
+Estatistica U: 692.0000
+Valor-p: 6.1408e-09
+Conclusao: Ha diferenca significativa entre os grupos (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Densidade_estomatica_mm2) VS Tratamento (Densidade_estomatica_mm2)
+Estatistica U: 525.0000
+Valor-p: 2.2410e-11
+Conclusao: Ha diferenca significativa entre os grupos (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Teor_agua_%) VS Tratamento (Teor_agua_%)
+Estatistica U: 1072.0000
+Valor-p: 1.3432e-04
+Conclusao: Ha diferenca significativa entre os grupos (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Biomassa_seca_mg) VS Tratamento (Biomassa_seca_mg)
+Estatistica U: 953.0000
+Valor-p: 8.8724e-06
+Conclusao: Ha diferenca significativa entre os grupos (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Compostos_fenolicos_ug_g) VS Tratamento (Compostos_fenolicos_ug_g)
+Estatistica U: 1418.0000
+Valor-p: 4.5246e-02
+Conclusao: Ha diferenca significativa entre os grupos (Rejeita a Hipotese Nula).
+
+Processo concluido! O relatorio completo foi salvo em 'Resultado_Mann_Whitney.txt'.
+
+Pressione Enter para fechar o programa...

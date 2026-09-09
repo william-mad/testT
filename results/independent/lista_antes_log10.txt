@@ -1,0 +1,4 @@
+Controle - Biomassa_seca_mg
+Tratamento - Biomassa_seca_mg
+Controle - Compostos_fenolicos_ug_g
+Tratamento - Compostos_fenolicos_ug_g

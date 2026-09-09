@@ -1,0 +1,16 @@
+Digite o nome do arquivo de entrada (ex: input.txt): Variavel: Altura_cm -> Mantida original
+Variavel: Altura_cm -> Mantida original
+Variavel: Area_foliar_cm2 -> Mantida original
+Variavel: Area_foliar_cm2 -> Mantida original
+Variavel: Espessura_foliar_mm -> Mantida original
+Variavel: Espessura_foliar_mm -> Mantida original
+Variavel: Densidade_estomatica_mm2 -> Mantida original
+Variavel: Densidade_estomatica_mm2 -> Mantida original
+Variavel: Teor_agua_% -> TRANSFORMADA (Arco-seno)
+Variavel: Teor_agua_% -> TRANSFORMADA (Arco-seno)
+Variavel: Biomassa_seca_mg -> Mantida original
+Variavel: Biomassa_seca_mg -> Mantida original
+Variavel: Compostos_fenolicos_ug_g -> Mantida original
+Variavel: Compostos_fenolicos_ug_g -> Mantida original
+
+Processo concluído! O arquivo 'workflow_data/base_workflow_independente_log10_transformada.txt' foi gerado mantendo o cabeçalho.

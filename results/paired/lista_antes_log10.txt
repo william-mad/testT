@@ -1,0 +1,4 @@
+Antes - Biomassa_seca_mg
+Depois - Biomassa_seca_mg
+Antes - Compostos_fenolicos_ug_g
+Depois - Compostos_fenolicos_ug_g

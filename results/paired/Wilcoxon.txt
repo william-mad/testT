@@ -1,0 +1,38 @@
+Digite o nome do arquivo de entrada (ex: input.txt): Comparando: Antes (Altura_cm) VS Depois (Altura_cm)
+Estatistica W: 13.0000
+Valor-p: 4.6468e-11
+Conclusao: Ha diferenca significativa entre os pares (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Area_foliar_cm2) VS Depois (Area_foliar_cm2)
+Estatistica W: 0.0000
+Valor-p: 1.6296e-11
+Conclusao: Ha diferenca significativa entre os pares (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Espessura_foliar_mm) VS Depois (Espessura_foliar_mm)
+Estatistica W: 19.0000
+Valor-p: 4.2235e-11
+Conclusao: Ha diferenca significativa entre os pares (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Densidade_estomatica_mm2) VS Depois (Densidade_estomatica_mm2)
+Estatistica W: 243.0000
+Valor-p: 7.5367e-07
+Conclusao: Ha diferenca significativa entre os pares (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Teor_agua_%) VS Depois (Teor_agua_%)
+Estatistica W: 51.0000
+Valor-p: 2.0120e-10
+Conclusao: Ha diferenca significativa entre os pares (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Biomassa_seca_mg) VS Depois (Biomassa_seca_mg)
+Estatistica W: 3.0000
+Valor-p: 1.8961e-11
+Conclusao: Ha diferenca significativa entre os pares (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Compostos_fenolicos_ug_g) VS Depois (Compostos_fenolicos_ug_g)
+Estatistica W: 1.0000
+Valor-p: 1.7141e-11
+Conclusao: Ha diferenca significativa entre os pares (Rejeita a Hipotese Nula).
+
+Processo concluido! O relatorio completo foi salvo em 'Resultado_Test_Wilcoxon.txt'.
+
+Pressione Enter para fechar o programa...

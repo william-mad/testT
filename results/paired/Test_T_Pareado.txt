@@ -1,0 +1,38 @@
+Digite o nome do arquivo de entrada (ex: input.txt): Comparando: Antes (Altura_cm) VS Depois (Altura_cm)
+Estatistica t: -11.7108
+Valor-p: 4.9956e-17
+Conclusao: As medias pareadas sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Area_foliar_cm2) VS Depois (Area_foliar_cm2)
+Estatistica t: -14.8169
+Valor-p: 1.5149e-21
+Conclusao: As medias pareadas sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Espessura_foliar_mm) VS Depois (Espessura_foliar_mm)
+Estatistica t: -12.4458
+Valor-p: 3.8120e-18
+Conclusao: As medias pareadas sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Densidade_estomatica_mm2) VS Depois (Densidade_estomatica_mm2)
+Estatistica t: -6.1352
+Valor-p: 7.7042e-08
+Conclusao: As medias pareadas sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Teor_agua_%) VS Depois (Teor_agua_%)
+Estatistica t: -10.3104
+Valor-p: 8.0807e-15
+Conclusao: As medias pareadas sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Biomassa_seca_mg) VS Depois (Biomassa_seca_mg)
+Estatistica t: -14.3320
+Valor-p: 7.0897e-21
+Conclusao: As medias pareadas sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Antes (Compostos_fenolicos_ug_g) VS Depois (Compostos_fenolicos_ug_g)
+Estatistica t: -13.8353
+Valor-p: 3.5515e-20
+Conclusao: As medias pareadas sao diferentes (Rejeita a Hipotese Nula).
+
+Processo concluido! O relatorio completo foi salvo em 'Resultado_Test_Pareado.txt'.
+
+Pressione Enter para fechar o programa...

@@ -1,0 +1,16 @@
+Digite o nome do arquivo de entrada: Variavel: Antes - Altura_cm -> Mantida original
+Variavel: Depois - Altura_cm -> Mantida original
+Variavel: Antes - Area_foliar_cm2 -> Mantida original
+Variavel: Depois - Area_foliar_cm2 -> Mantida original
+Variavel: Antes - Espessura_foliar_mm -> Mantida original
+Variavel: Depois - Espessura_foliar_mm -> Mantida original
+Variavel: Antes - Densidade_estomatica_mm2 -> Mantida original
+Variavel: Depois - Densidade_estomatica_mm2 -> Mantida original
+Variavel: Antes - Teor_agua_% -> Mantida original
+Variavel: Depois - Teor_agua_% -> Mantida original
+Variavel: Antes - Biomassa_seca_mg -> TRANSFORMADA (Regra do Par: Biomassa_seca_mg)
+Variavel: Depois - Biomassa_seca_mg -> TRANSFORMADA (Regra do Par: Biomassa_seca_mg)
+Variavel: Antes - Compostos_fenolicos_ug_g -> TRANSFORMADA (Regra do Par: Compostos_fenolicos_ug_g)
+Variavel: Depois - Compostos_fenolicos_ug_g -> TRANSFORMADA (Regra do Par: Compostos_fenolicos_ug_g)
+
+Sucesso! Arquivo 'workflow_data/base_workflow_pareado_log10.txt' gerado com transformações pareadas.

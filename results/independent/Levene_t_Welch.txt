@@ -1,0 +1,66 @@
+Digite o nome do arquivo de entrada (ex: input.txt): Comparando: Controle (Altura_cm) VS Tratamento (Altura_cm)
+Estatistica W (Levene): 6.3324
+Valor-p (Levene): 1.3198e-02
+Conclusao (Levene): As variancias sao diferentes (Rejeita a Hipotese Nula).
+
+Estatistica t (Welch): -2.5969
+Valor-p (Teste de Welch): 1.0754e-02
+Conclusao (Teste de Welch): As medias sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Area_foliar_cm2) VS Tratamento (Area_foliar_cm2)
+Estatistica W (Levene): 13.8071
+Valor-p (Levene): 3.1106e-04
+Conclusao (Levene): As variancias sao diferentes (Rejeita a Hipotese Nula).
+
+Estatistica t (Welch): -5.7629
+Valor-p (Teste de Welch): 9.1039e-08
+Conclusao (Teste de Welch): As medias sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Espessura_foliar_mm) VS Tratamento (Espessura_foliar_mm)
+Estatistica W (Levene): 11.1219
+Valor-p (Levene): 1.1408e-03
+Conclusao (Levene): As variancias sao diferentes (Rejeita a Hipotese Nula).
+
+Estatistica t (Welch): -6.6322
+Valor-p (Teste de Welch): 1.8642e-09
+Conclusao (Teste de Welch): As medias sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Densidade_estomatica_mm2) VS Tratamento (Densidade_estomatica_mm2)
+Estatistica W (Levene): 0.6183
+Valor-p (Levene): 4.3324e-01
+Conclusao (Levene): As variancias sao iguais (Nao rejeita a Hipotese Nula).
+
+Estatistica t (Padrao): -7.8614
+Valor-p (Teste T): 1.9884e-12
+Conclusao (Teste T): As medias sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Teor_agua_%) VS Tratamento (Teor_agua_%)
+Estatistica W (Levene): 0.0260
+Valor-p (Levene): 8.7223e-01
+Conclusao (Levene): As variancias sao iguais (Nao rejeita a Hipotese Nula).
+
+Estatistica t (Padrao): -4.1352
+Valor-p (Teste T): 6.6703e-05
+Conclusao (Teste T): As medias sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Biomassa_seca_mg) VS Tratamento (Biomassa_seca_mg)
+Estatistica W (Levene): 0.7015
+Valor-p (Levene): 4.0397e-01
+Conclusao (Levene): As variancias sao iguais (Nao rejeita a Hipotese Nula).
+
+Estatistica t (Padrao): -4.8782
+Valor-p (Teste T): 3.3802e-06
+Conclusao (Teste T): As medias sao diferentes (Rejeita a Hipotese Nula).
+
+Comparando: Controle (Compostos_fenolicos_ug_g) VS Tratamento (Compostos_fenolicos_ug_g)
+Estatistica W (Levene): 1.3171
+Valor-p (Levene): 2.5343e-01
+Conclusao (Levene): As variancias sao iguais (Nao rejeita a Hipotese Nula).
+
+Estatistica t (Padrao): -2.3390
+Valor-p (Teste T): 2.1018e-02
+Conclusao (Teste T): As medias sao diferentes (Rejeita a Hipotese Nula).
+
+Processo concluido! O relatorio completo foi salvo em 'Resultado_Levene.txt'.
+
+Pressione Enter para fechar o programa...
