@@ -46,6 +46,21 @@ cargas = pd.DataFrame(
 
 cargas.to_csv("Resultado_Cargas_PCA.txt", sep="\t", decimal=",")
 
+# Percentage contribution of each variable to each principal component.
+contribuicoes = pd.DataFrame(
+    (pca.components_ ** 2)
+    / np.sum(pca.components_ ** 2, axis=1, keepdims=True)
+    * 100,
+    columns=[f"PC{i + 1}" for i in range(pca.n_components_)],
+    index=dados_limpos.columns,
+)
+
+contribuicoes.to_csv(
+    "Resultado_Contribuicoes_PCA.txt",
+    sep="\t",
+    decimal=",",
+)
+
 autovalores = pca.explained_variance_
 
 tabela_eigen = pd.DataFrame(
@@ -64,9 +79,55 @@ tabela_eigen.to_csv(
 )
 
 
-print("\nProcesso concluído! Foram gerados dois arquivos de texto:")
+print("\nProcesso concluído! Foram gerados três arquivos de texto:")
 print("1. 'Resultado_Cargas_PCA.txt' (pesos das variaveis)")
-print("2. 'Resultado_Eigenvalues_PCA.txt' (autovalores e % de variancia)")
+print("2. 'Resultado_Contribuicoes_PCA.txt' (% de contribuição por componente)")
+print("3. 'Resultado_Eigenvalues_PCA.txt' (autovalores e % de variancia)")
+
+
+quantidade_componentes_plot = min(2, pca.n_components_)
+fig_contribuicoes, eixos_contribuicoes = plt.subplots(
+    1,
+    quantidade_componentes_plot,
+    figsize=(16, 10),
+    squeeze=False,
+)
+
+for indice in range(quantidade_componentes_plot):
+    nome_componente = f"PC{indice + 1}"
+    contribuicoes_componente = contribuicoes[nome_componente].sort_values()
+    eixo = eixos_contribuicoes[0, indice]
+
+    barras = eixo.barh(
+        contribuicoes_componente.index,
+        contribuicoes_componente.values,
+        color="steelblue" if indice == 0 else "darkorange",
+    )
+    eixo.set_title(
+        f"Contribuição das variáveis para {nome_componente}\n"
+        f"({variancia[indice]:.2f}% da variância total)",
+        fontsize=12,
+    )
+    eixo.set_xlabel("Contribuição (%)")
+    eixo.grid(axis="x", linestyle="--", alpha=0.4)
+
+    for barra, valor in zip(barras, contribuicoes_componente.values):
+        eixo.text(
+            valor + 0.5,
+            barra.get_y() + barra.get_height() / 2,
+            f"{valor:.1f}%",
+            va="center",
+            fontsize=8,
+        )
+
+fig_contribuicoes.tight_layout()
+fig_contribuicoes.savefig(
+    "Grafico_Contribuicoes_PCA_PC1_PC2.png",
+    dpi=300,
+    bbox_inches="tight",
+)
+
+print("4. 'Grafico_Contribuicoes_PCA_PC1_PC2.png' (gráfico das contribuições)")
 
 
 print("\nGerando o grafico Biplot do PCA... (feche a janela do grafico para continuar)\n")
