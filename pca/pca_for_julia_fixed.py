@@ -89,6 +89,53 @@ quantidade_componentes_plot = min(2, pca.n_components_)
 fig_contribuicoes, eixos_contribuicoes = plt.subplots(
     1,
     quantidade_componentes_plot,
+    figsize=(22, 10),
+    squeeze=False,
+)
+
+for indice in range(quantidade_componentes_plot):
+    nome_componente = f"PC{indice + 1}"
+    contribuicoes_componente = contribuicoes[nome_componente].sort_values(ascending=False)
+    eixo = eixos_contribuicoes[0, indice]
+
+    fatias, _, textos_percentuais = eixo.pie(
+        contribuicoes_componente.values,
+        startangle=90,
+        counterclock=False,
+        autopct=lambda percentual: f"{percentual:.1f}%" if percentual >= 4 else "",
+        pctdistance=0.72,
+        textprops={"fontsize": 8},
+    )
+    eixo.set_title(
+        f"Contribuição das variáveis para {nome_componente}\n"
+        f"({variancia[indice]:.2f}% da variância total)",
+        fontsize=12,
+    )
+    eixo.legend(
+        fatias,
+        [
+            f"{variavel}: {valor:.1f}%"
+            for variavel, valor in contribuicoes_componente.items()
+        ],
+        title="Variáveis",
+        loc="center left",
+        bbox_to_anchor=(1.0, 0.5),
+        fontsize=8,
+    )
+    eixo.axis("equal")
+
+fig_contribuicoes.tight_layout()
+fig_contribuicoes.savefig(
+    "Grafico_Contribuicoes_PCA_PC1_PC2_Pizza.png",
+    dpi=300,
+)
+
+print("4. 'Grafico_Contribuicoes_PCA_PC1_PC2_Pizza.png' (gráfico das contribuições)")
+
+
+fig_barras, eixos_barras = plt.subplots(
+    1,
+    quantidade_componentes_plot,
     figsize=(16, 10),
     squeeze=False,
 )
@@ -96,7 +143,7 @@ fig_contribuicoes, eixos_contribuicoes = plt.subplots(
 for indice in range(quantidade_componentes_plot):
     nome_componente = f"PC{indice + 1}"
     contribuicoes_componente = contribuicoes[nome_componente].sort_values()
-    eixo = eixos_contribuicoes[0, indice]
+    eixo = eixos_barras[0, indice]
 
     barras = eixo.barh(
         contribuicoes_componente.index,
@@ -120,17 +167,17 @@ for indice in range(quantidade_componentes_plot):
             fontsize=8,
         )
 
-fig_contribuicoes.tight_layout()
-fig_contribuicoes.savefig(
-    "Grafico_Contribuicoes_PCA_PC1_PC2.png",
+fig_barras.tight_layout()
+fig_barras.savefig(
+    "Grafico_Contribuicoes_PCA_PC1_PC2_Barras.png",
     dpi=300,
     bbox_inches="tight",
 )
 
-print("4. 'Grafico_Contribuicoes_PCA_PC1_PC2.png' (gráfico das contribuições)")
+print("5. 'Grafico_Contribuicoes_PCA_PC1_PC2_Barras.png' (gráfico das contribuições)")
 
 
-print("\nGerando o grafico Biplot do PCA... (feche a janela do grafico para continuar)\n")
+print("\nGerando o grafico Biplot do PCA... (feche as janelas dos graficos para continuar)\n")
 
 plt.figure(figsize=(12, 8))
 
